@@ -1,0 +1,36 @@
+body {
+  height: 3000px;
+}
+.fab {
+  z-index: 9;
+  width: 160px;
+  height: 160px;
+  background-color: #EA352D;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.fab .label{
+  vertical-align: baseline;
+  margin: 32px 0 0 ;
+  padding: 0;
+}
+.fab i{
+  vertical-align: baseline;
+  font-size: 60px;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+/* .fab:hover {
+  box-shadow: 0 6px 14px 0 #666;
+  transform: scale(1.05);
+} */
